@@ -1,0 +1,61 @@
+/*
+  Importing the Required Fonts Family
+*/
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap"); /* font-family: 'Young Serif', serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"); /* font-family: 'Oswald', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"); /* font-family: 'Roboto Slab', serif; */
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"); /* font-family: 'Lora', serif; */
+
+/* Main CSS root variables */
+:root {
+    --font-young-serif: "Young Serif", serif;
+    --font-oswald: "Oswald", sans-serif;
+    --font-roboto-slab: "Roboto Slab", serif;
+    --font-lora: "Lora", serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-lora);
+}
+
+html,
+body,
+#root,
+.app,
+.content {
+    height: 100%;
+    width: 100%;
+    font-family: var(--font-lora);
+    overflow: auto;
+}
+
+.app {
+    display: flex;
+    position: relative;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #ffffff00;
+}
+
+/* Handle Thumb */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 2px;
+  transition: background cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+/* Handle Thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
