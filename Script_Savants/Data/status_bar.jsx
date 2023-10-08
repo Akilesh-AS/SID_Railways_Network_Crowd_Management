@@ -1,0 +1,1 @@
+export const cleanSchedule = "3:00 am"

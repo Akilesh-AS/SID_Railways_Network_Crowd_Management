@@ -5,7 +5,7 @@ import HeaderBar from '../Global/Header/main'
 const LiveRecord = () => {
   return (
     <Box>
-      <HeaderBar/>
+      <HeaderBar title={"Live Recordings"} time={true} date={true}/>
       Live Record
     </Box>
   )

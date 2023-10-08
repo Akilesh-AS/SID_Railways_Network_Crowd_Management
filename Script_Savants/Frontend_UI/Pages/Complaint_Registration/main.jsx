@@ -5,7 +5,7 @@ import HeaderBar from '../Global/Header/main';
 const ComplaintRegistration = () => {
   return (
     <Box>
-      <HeaderBar/>
+      <HeaderBar title={"Complaint Registration"}/>
       Complaint Registration
     </Box>
   )

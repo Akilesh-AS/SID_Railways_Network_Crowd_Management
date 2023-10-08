@@ -5,7 +5,7 @@ import HeaderBar from '../Global/Header/main';
 const Document = () => {
   return (
     <Box>
-      <HeaderBar/>
+      <HeaderBar title={"Documentation"}/>
       Documentation
     </Box>
   )

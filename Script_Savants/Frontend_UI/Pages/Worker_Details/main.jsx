@@ -5,7 +5,9 @@ import HeaderBar from '../Global/Header/main'
 const WorkersDetailList = () => {
   return (
     <Box>
-      <HeaderBar/>
+      <HeaderBar
+        title={"Workers Details"}
+      />
       Workers Details List
     </Box>
   )

@@ -5,7 +5,7 @@ import HeaderBar from '../Global/Header/main';
 const CrimeNotifyRecord = () => {
   return (
     <Box>
-      <HeaderBar/>
+      <HeaderBar title={"Crime Alerts"} time={true} date={true}/>
       Crime Notification Alert Details
     </Box>
   )
